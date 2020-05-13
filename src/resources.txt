@@ -1,0 +1,27 @@
+--Install pip
+python get-pip.py
+Note: need to download first and open shell where "get-pip.py" is
+to install.
+
+
+--Install virtualenv
+pip install virtualenv
+
+
+--Create a virtual enviroment
+virtualenv (name)
+
+
+
+
+-Install pillow
+pip install pillow --upgrade
+
+--Install numpy
+pip install numpy --upgrade
+
+--Install openCv
+pip install opencv-contrib-python --upgrade
+
+-- Check if all resources are intalled(pillow,  numpy and opencv)
+pip freeze 
